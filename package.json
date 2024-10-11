@@ -1,0 +1,9 @@
+{
+  "name": "helvetictoc",
+  "version": "1.0.0",
+  "description": "A time-full tribute to a timeless typeface - React Version",
+  "main": "index.js",
+  "repository": "https://github.com/melvinjmani-deepnetsoft/helvetictoc.git",
+  "author": "Melvin Joseph Mani <melvinjmani@gmail.com>",
+  "license": "MIT"
+}
