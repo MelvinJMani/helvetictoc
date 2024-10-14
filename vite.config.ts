@@ -2,6 +2,10 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 
 // https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [react()],
-})
+export default defineConfig(({ mode }) => {
+  return {
+    plugins: [react()],
+    // Set the base URL conditionally based on the mode (development or production)
+    base: mode === 'production' ? '/repository-name/' : '/',  // Change 'repository-name' to your GitHub repo name
+  };
+});
