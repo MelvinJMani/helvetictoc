@@ -82,4 +82,94 @@ body.night {
   color: #ffffff; /* Light text for contrast */
 }
 
+.inscription {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 10px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  text-align: right;
+  font-family: Arial, sans-serif;
+  z-index: 1000;
+}
 
+.inscription a {
+  text-decoration: none;
+  color: #999;
+  transition: color 0.3s ease;
+}
+
+.inscription a:hover {
+  text-decoration: underline;
+}
+
+/* Early Morning (5 AM - 6 AM) */
+.early-morning .inscription {
+  background-color: #b3cde0;
+  color: #023858;
+}
+
+.early-morning .inscription a {
+  color: #023858; /* Dark Blue */
+}
+
+.early-morning .inscription a:hover {
+  color: #011f4b;
+}
+
+/* Morning (6 AM - 9 AM) */
+.morning .inscription {
+  background-color: #FFFACD;
+  color: #b8860b;
+}
+
+.morning .inscription a {
+  color: #b8860b; /* Golden Brown */
+}
+
+.morning .inscription a:hover {
+  color: #8b6508;
+}
+
+/* Rest of the Day (9 AM - 6 PM) */
+.day .inscription {
+  background-color: #87CEFA;
+  color: #000;
+}
+
+.day .inscription a {
+  color: #000000; /* Black */
+}
+
+
+.day .inscription a:hover {
+  color: #333;
+}
+
+/* Evening (6 PM - 7 PM) */
+.evening .inscription {
+  background-color: #FFA07A;
+  color: #2e1a47;
+}
+
+.evening .inscription a {
+  color: #2e1a47; /* Deep Purple */
+}
+
+.evening .inscription a:hover {
+  color: #562355;
+}
+
+/* Night (7 PM - 5 AM) */
+.night .inscription {
+  background-color: #000000;
+  color: #ffffff;
+}
+.night .inscription a {
+  color: #ffffff; /* White */
+}
+
+.night .inscription a:hover {
+  color: #bbbbbb;
+}
