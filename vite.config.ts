@@ -6,6 +6,6 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [react()],
     // Set the base URL conditionally based on the mode (development or production)
-    base: mode === 'production' ? '/repository-name/' : '/',  // Change 'repository-name' to your GitHub repo name
+    base: mode === 'production' ? '/helvetictoc/' : '/',  // Change 'repository-name' to your GitHub repo name
   };
 });
