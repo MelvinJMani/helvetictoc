@@ -6,7 +6,7 @@ import {
     SPECIAL_CASES,
     onTheHourTemplate,
     template
-} from './TimeInWords';
+} from './timeInWords';
 import { TimeOfDay } from './enums';
 
 export class Clock {
